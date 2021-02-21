@@ -4,32 +4,6 @@
 
 
 
-
-
-## 2/ Generate genesis block.
-
-### 2.1/  Genesis block
-* `puppeth`, to configure a new genesis block.
-* `Proof of Authority` as consensus algorithm.
-* Accounts to seal
-    * Public address:   0xffC0Ad3829628146669CC43429bd071A5B8f6644
-    * Public address:   0xA511dc7ece42633e5B97C7d16c05629191F20ea7
-* Accounts to pre-fund.
-    * Public address:   0xffC0Ad3829628146669CC43429bd071A5B8f6644
-    * Public address:   0xA511dc7ece42633e5B97C7d16c05629191F20ea7
-
-
-## 1/ Create accounts for two nodes for the network —> node1 + node2
-
-### 1.1/ node1
-* Public address:   0xffC0Ad3829628146669CC43429bd071A5B8f6644
-![node1](./Screenshots/01_node1_newaccount.png)
-
-### 1.2/ node2
-* Public address:   0xA511dc7ece42633e5B97C7d16c05629191F20ea7
-![node2](./Screenshots/02_node2_newaccount.png)
-
-
 ## 0/ Dependencies
 
 - PHP must be installed on the operating system 
@@ -121,7 +95,6 @@ constants.py
 
 
 +++++++++++++++
-
 
 Now, you should be able to fund these wallets using testnet faucets. Open up a new terminal window inside of `wallet`,
 then run `python`. Within the Python shell, run `from wallet import *` -- you can now access the functions interactively.
